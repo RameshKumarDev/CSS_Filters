@@ -1,0 +1,124 @@
+*{
+	box-sizing:border-box;
+	
+}
+body{
+	margin: 0 auto;
+	font-family: sans-serif;
+	background: #f5f6f7;
+}
+.header{
+	background-color: #0a0a23;
+	color: #fff;
+	border-bottom: 5px solid #fdb347;
+	text-align:center;
+	padding: 10px;
+}
+.whole{
+	display:flex;
+	 flex-direction: row;
+	flex-wrap: wrap;
+   justify-content: center;
+}
+.photo{
+   /* display: flex;  */
+  
+  align-items: center;
+  /* gap: 10px; */
+  max-width: 1400px;
+  margin: 0 15px;
+  padding: 20px 0;
+  text-align:center;	
+  
+}
+.photo img{
+	width: 100%;
+  max-width: 350px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+  filter: drop-shadow(8px 8px 10px gray);
+  
+  
+}
+.overflow{
+	margin:0 auto;
+	align-items: center;
+	/* border:1px solid black; */
+	text-align:center;
+	max-width: 400px;
+	max-height:400px;
+	overflow:hidden;
+}
+.overflow2{
+	margin:20px auto;
+	align-items: center;
+	/* border:1px solid black; */
+	text-align:center;
+	max-width: 400px;
+	max-height:400px;
+	overflow:scroll;
+}
+ .overflow2 img{
+	width: 600px;
+  /* max-width: 350px; */
+  height: 600px;
+  object-fit: cover;
+  border-radius: 10px;
+  filter: drop-shadow(8px 8px 10px gray);
+
+  
+  
+  margin:30px auto;
+  
+} 
+ .overflow img{
+	width: 300px;
+  /* max-width: 350px; */
+  height: 300px;
+  object-fit: cover;
+  /* border-radius: 10px; */
+  filter: drop-shadow(8px 8px 10px gray);
+/*   border-radius:50%; */
+  /* border:1px solid red; */
+  overflow:hidden;
+  /* padding:30px; */
+  margin:30px auto;
+  border-radius:50%;
+} 
+#dog7:hover{
+	filter: drop-shadow(8px 8px 10px gray);
+	height: 500px;
+	width:500px;
+	overflow:hidden;
+	border-radius:50%;
+}
+#dog1:hover{
+	filter:blur(1.5px) drop-shadow(8px 8px 10px gray);
+	
+}
+#dog2:hover{
+	
+	filter:invert(75%) drop-shadow(8px 8px 10px gray);
+}
+#dog3:hover{
+	filter:hue-rotate(120deg) drop-shadow(8px 8px 10px gray);
+}
+#dog4:hover{
+	filter:sepia(100%) drop-shadow(8px 8px 10px gray);
+}
+#dog5:hover{
+	filter:opacity(0.3) drop-shadow(8px 8px 10px gray);
+}
+#dog6:hover{
+	
+	filter:saturate(150%) drop-shadow(8px 8px 10px gray);
+}
+.divider{
+	border-bottom:3px solid black;
+	
+}
+.blank{
+	height:150px;
+	width:100%;
+}
